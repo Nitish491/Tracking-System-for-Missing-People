@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index1.css">
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-sm-3"><img src="img/track.png" style="background-size: cover">
+        </div>
+        <div class="col-sm-9">
+            <h1>TRACK PEOPLE</h1>
+            <p>Citizens Corner Of Track People</p>
+        </div>
+    </div>
+    <div>
+        <nav class="navbar" style="background-color: #e2bd61">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="homepage.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DASHBOARD</a>
+                </li>
+            </ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="log_in.html">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dep_log_in.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <form action="log_in.php" method="post">
+                <div class="container" style="margin-left: 2%;">
+                    <h3>
+                        <center>REGISTER</center>
+                    </h3>
+                    <hr>
+                    <div class="row">
+                        <label for="name" class="col-sm-3 col-form-label"><b>USERNAME :</b></label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="Aadhar Number" name="uname">
+                        </div>
+                        <label for="contact number" class="col-sm-3 col-form-label"><b>PASSWORD :</b></label>
+                        <div class="col-sm-8">
+                            <input type="password" class="form-control" placeholder="Password" name="pwd">
+                        </div>
+
+                        <label for="log_in_as" class="col-sm-3 col-form-label"><b>LOGIN AS :</b></label>
+                        <div class="col-sm-8">
+                            <select class="form-control" style="padding:5px 5px;margin-right: 8px 0;display: inline-block;
+  border: none;" name="user">
+                            
+                                <option value="DEPENDENT">DEPENDENT</option>
+                                <option value="INFORMANT">INFORMANT</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+                            <button style="background-color: #3480eb; color: white;width:95.4%;height:5%;padding:40px,40px;border:1px solid;border-radius: 6px;" type="submit"> Log In</button>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
